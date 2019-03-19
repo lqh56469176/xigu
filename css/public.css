@@ -1,0 +1,232 @@
+.head {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);
+}
+.head .m1200 {
+    position: relative;
+}
+.head .logo {
+    width: 190px;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+}
+.head .logo img {
+    width: 190px;
+    height: 60px;
+}
+.head .nav {
+    float: right;
+    margin-right: -30px;
+}
+.head .nav li {
+    float: left;
+    padding: 0 10px;
+    position: relative;
+}
+.head .nav li .on {
+    background: #ffffff;
+}
+.head .nav li a {
+    font-size: 18px;
+    height: 100px;
+    padding: 0 10px;
+    line-height: 100px;
+    color: #999;
+    display: block;
+    position: relative;
+}
+.head .nav li a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0px;
+    height: 5px;
+    background-color: #03b4f5;
+    transition: 0.3s;
+}
+.head .nav li a:hover, .head .nav li a.on {
+    color: #333;
+}
+
+/* hover */
+.head .nav li:after {
+    content: '';
+    width: 2px;
+    height: 2px;
+    background-color: #999;
+    position: absolute;
+    right: 0;
+    top: 49px;
+}
+.head .nav li a:hover:before, .head .nav li a.on:before {
+    width: 100%;
+}
+
+/* 底部 */
+.foot.index-foot {
+    margin-top: 0;
+}
+.foot {
+    background-color: #282b2d;
+    min-width: 1200px;
+    padding: 29px 0;
+    margin-top: 50px;
+}
+.foot_logo {
+    padding: 13px 25px 0 177px;
+}
+.foot_info {
+    border-left: 1px dotted #b3b3b3;
+    padding: 0 0 5px 30px;
+}
+.foot_nav {
+    font-size: 14px;
+    color: #acacac;
+    padding-bottom: 10px;
+}
+.foot_nav a {
+    display: inline-block;
+    color: #fff;
+}
+.foot_nav .line {
+    display: inline-block;
+    padding: 0 15px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.foot_nav a {
+    display: inline-block;
+    color: #fff;
+}
+
+.foot_copy {
+    font-size: 12px;
+    color: #fff;
+    line-height: 22px;
+}
+.foot .split_line {
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.06);
+    margin: 20px 0 10px;
+}
+.foot_tips {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.6;
+}
+/* 浮动层 gotop */
+.float_contact ul .active{
+    visibility :visible;
+    opacity:1;
+}
+.float_contact_position {
+    width: 1200px;
+    margin: 0 auto;
+}
+.float_contact {
+    position: fixed;
+    bottom: 80px;
+    right: -130px;
+    z-index: 999;
+    right: 10px;
+}
+.float_contact .float-bg {
+    width: 52px;
+    height: 143px;
+    background: url(http://sy.vlcms.com/Public/Media/images/float_contact.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.float_contact ul {
+    width: 52px;
+    height: 171px;
+    padding-top: 14px;
+}
+.float_contact ul li {
+    float: left;
+    width: 100%;
+    margin-bottom: 9px;
+    position: relative;
+}
+.float_contact ul li a {
+    width: 100%;
+    height: 37px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    z-index: 9;
+}
+.float_contact .kf_pic {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    width: 160px;
+    height: 30px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    left: -200px;
+    top: 0px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    z-index: 4;
+    box-sizing: content-box;
+}
+.float_contact .kf_pic a {
+    width: 100%;
+}
+.float_contact .kf_pic .arrow {
+    width: 23px;
+    height: 26px;
+    display: inline-block;
+    background: url(http://sy.vlcms.com/Public/Media/images/arrow.png);
+    position: absolute;
+    right: -20px;
+    top: 12px;
+}
+.float_contact .wx_pic {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    left: -200px;
+    top: -20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    z-index: 4;
+}
+.float_contact .wx_pic img {
+    width: 200px;
+    border-radius: 6px;
+}
+.float_contact .wx_pic .arrow {
+    width: 23px;
+    height: 26px;
+    display: inline-block;
+    background: url(http://sy.vlcms.com/Public/Media/images/arrow.png);
+    position: absolute;
+    right: -20px;
+    top: 35px;
+}
+
+
+
+
+
+
