@@ -17,13 +17,13 @@ $.get("../InformationTestJson/Tab1.json", function(data, status) {
 	var res = data.Tab1;
 	console.log(res)
 	for(var i = 0; i < res.length; i++) {
-		cm += '<li><a href="#">';
+		cm += '<li><a href="information2.html?id='+res[i].id+'">';
 		cm += '<span class="img-font "><span class="img-font-cell ">';
 		cm += '<div class="img-font-text "></div>';
 		cm += '</span></span>';
 		cm += '<img title="' + res[i].Title + '" src="' + res[i].ImgSrc + '">';
 		cm += '</a><div class="news_div">';
-		cm += '<h3><a href="#"title="' + res[i].Title + '">' + res[i].Title + '</a></h3>';
+		cm += '<h3><a href="information2.html?id='+res[i].id+'"title="' + res[i].Title + '">' + res[i].Title + '</a></h3>';
 		cm += '<p title="' + res[i].Content + '">' + res[i].Content + '</p>';
 		cm += '<em>更新时间：2017-03-01</em>';
 		cm += '</div></li>';
@@ -37,13 +37,13 @@ $.get("../InformationTestJson/Tab2.json", function(data, status) {
 	var res = data.Tab2;
 	console.log(res)
 	for(var i = 0; i < res.length; i++) {
-		cm += '<li><a href="#">';
+		cm += '<li><a href="information2.html?id='+res[i].id+'">';
 		cm += '<span class="img-font "><span class="img-font-cell ">';
 		cm += '<div class="img-font-text "></div>';
 		cm += '</span></span>';
 		cm += '<img title="' + res[i].Title + '" src="' + res[i].ImgSrc + '">';
 		cm += '</a><div class="news_div">';
-		cm += '<h3><a href="#"title="' + res[i].Title + '">' + res[i].Title + '</a></h3>';
+		cm += '<h3><a href="information2.html?id='+res[i].id+'"title="' + res[i].Title + '">' + res[i].Title + '</a></h3>';
 		cm += '<p title="' + res[i].Content + '">' + res[i].Content + '</p>';
 		cm += '<em>更新时间：2017-03-01</em>';
 		cm += '</div></li>';
@@ -77,16 +77,16 @@ $.get("../Indextestjson/GiftBag.json", function(data, status) {
 	var res = data.GiftBag;
 	console.log(res)
 	for(var i = 0; i < res.length; i++) {
-		cm += '<li><a class="a_seat z_clearfix" href="" title="'+res[i].Name+'">';
+		cm += '<li><a class="a_seat z_clearfix" title="'+res[i].Name+'">';
 		cm += '<div class="seat z_clearfix">';
 		cm += '<span class="img-font "><span class="img-font-cell ">';
 		cm += '<div class="img-font-text "></div>';
 		cm += '</span></span>';
 		cm += '</div><img src="' + res[i].ImgSrc + '"></a>';
 		cm += '<i class="z_clearfix">';
-		cm += '<a href="/media.php?s=/Gift/gift_detail/gid/MTAy.html" title="' + res[i].Name + '">' + res[i].Name + '</a></i>';
+		cm += '<a title="' + res[i].Name + '">' + res[i].Name + '</a></i>';
 		cm += '<em class="z_clearfix" title="' + res[i].Gift + '">' + res[i].Gift + '</em>';
-		cm += '<a class="lqlb z_clearfix" href="/media.php?s=/Gift/gift_detail/gid/MTAy.html">领取</a> </li>'; 
+		cm += '<a class="lqlb z_clearfix">领取</a> </li>'; 
 	}
 	$('.bag_ul').html(cm);
 });
@@ -100,13 +100,13 @@ $.get("../InformationTestJson/HotGame.json", function(data, status) {
 		cm += '<h3 class=""><i style="width:92px;">'+res[i].Name+'</i>';
 		cm += '<i style="width:92px;">'+res[i].Times+'</i>';
 		cm += '<i style="width:92px;">'+ res[i].Type+'</i></h3>';
-		cm += '<ul style="display: none;"><li><a href="/media.php?s=/Game/game_detail/id/54.html" title="'+res[i].Name+'">';
+		cm += '<ul style="display: none;"><li><a href="gamedetail.html?id='+res[i].id+'" title="'+res[i].Name+'">';
 		cm += '<span class="img-font "><span class="img-font-cell">';
 		cm += '<div class="img-font-text "></div></span></span>';
 		cm += '<img src="'+res[i].ImgSrc+'"></a>';
 		cm += '<span style="height:66px;padding-top:10px;" class="sideMenu_span">';
-		cm += '<a href="" class="android" title="安卓下载" style="text-align: center">安卓下载</a>';
-		cm += '<a style="text-align: center" href="" class="ios" title="IOS下载">IOS下载</a>';
+		cm += '<a href="gamedetail.html?id='+res[i].id+'" class="android" title="安卓下载" style="text-align: center">安卓下载</a>';
+		cm += '<a style="text-align: center" href="gamedetail.html?id='+res[i].id+'" class="ios" title="IOS下载">IOS下载</a>';
 		cm += '</span></li></ul>';
 	}
 	$('.sideMenu').append(cm);

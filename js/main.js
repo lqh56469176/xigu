@@ -33,9 +33,9 @@ $(function(){
         $('body,html').animate({"scrollTop":0},500);
     });
     /*排行内容切换*/
-    $('.game-rank-box .game-list li,.hot-game-box .hot-game-list li,.hot-raiders-box .hot-raiders-list li').on('mouseenter',function(){
-        $(this).addClass('on').siblings('li').removeClass("on");
-    });
+//  $('.game-rank-box .game-list li,.hot-game-box .hot-game-list li,.hot-raiders-box .hot-raiders-list li').on('mouseenter',function(){
+//      $(this).addClass('on').siblings('li').removeClass("on");
+//  });
     /*字数限制*/
     $('.hot-raiders-list li .text p').jsNumber({
         number : 20,
@@ -69,21 +69,7 @@ $(function(){
         effect : 'leftLoop',
     });
     /*竖版截图*/
-    $('.slide-box.vis-3').slide({
-        titCell:".slide-num",
-        mainCell:".slide-img",
-        autoPage:"<li></li>",
-        effect:"leftLoop",
-        vis:3,
-    });
-    /*横版截图*/
-    $('.slide-box.vis-2').slide({
-        titCell:".slide-num",
-        mainCell:".slide-img",
-        autoPage:"<li></li>",
-        effect:"leftLoop",
-        vis:2,
-    });
+
     /*楼层自动跳转*/
     $('.indexes-box-wrap').floor({
         floor : '.details-content .part',

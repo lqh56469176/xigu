@@ -17,7 +17,7 @@ $.get("../Indextestjson/BanInformation.json", function(data, status) {
 	console.log(res)
 	for(var i = 0; i < res.length; i++) {
 		cm += '<li>';
-        cm += '<a href="/media.php?s=/Article/detail/id/4.html">'+res[i].Title+'</a><span class="time">'+res[i].Time+'</span>';
+        cm += '<a href="information2.html?id='+res[i].id+'">'+res[i].Title+'</a><span class="time">'+res[i].Time+'</span>';
         cm += '</li>';
 	}
 	$('.news-box .tab-box .tab-conul2').append(cm);
@@ -29,7 +29,7 @@ $.get("../Indextestjson/News.json", function(data, status) {
 	console.log(res)
 	for(var i = 0; i < res.length; i++) {
 		cm += '<li>';
-        cm += '<a href="/media.php?s=/Article/detail/id/4.html">'+res[i].Title+'</a><span class="time">'+res[i].Time+'</span>';
+        cm += '<a href="information2.html?id=	'+res[i].id+'">'+res[i].Title+'</a><span class="time">'+res[i].Time+'</span>';
         cm += '</li>';
 	}
 	$('.news-box .tab-box .tab-conul1').append(cm);
@@ -42,7 +42,7 @@ $.get("../Indextestjson/Slide.json", function(data, status) {
 	for(var i = 0; i < res.length; i++) {
 		cm += '<li style="position: absolute; width: 470px; left: 0px; top: 0px; display: list-item;">';
 		cm += '<span class="img-font"><span class="img-font-cell"><div class="img-font-text"></div></span></span>';
-		cm += '<a href="/media.php?s=/Game/game_detail/id/49.html"><img src="'+ res[i].ImgBigSrc+'" alt="COK列王的纷争" width="470" height="350"></a>';
+		cm += '<a href="gamedetail.html?id='+res[i].id+'"><img src="'+ res[i].ImgBigSrc+'" alt="'+res[i].Name+'" width="470" height="350"></a>';
 		cm += '</li>';
 	}
 	$('.news-box .slide-box .slide-img').html(cm);
@@ -70,6 +70,7 @@ $.get("../Indextestjson/Slide.json", function(data, status) {
 	$('.news-box .slide-box .slide-num').html(cm);
 });
 
+//推荐游戏
 $.get("../Indextestjson/RecommendGame.json", function(data, status) {
 	var cm = "";
 	var res = data.RecommendGame;
@@ -83,20 +84,20 @@ $.get("../Indextestjson/RecommendGame.json", function(data, status) {
 		cm += '</div>';
 		cm += '<div class="down-code">';
 		cm += '<div class="code">';
-		cm += '<img src="' + res[i].QRcodeSrc + '"width="100" height="100">';
+		cm += '<img src="' + res[i].QRcodeAndSrc + '"width="100" height="100">';
 		cm += '</div>';
 		cm += '<div class="text">';
 		cm += '<p class="type">游戏类型:' + res[i].GameType;
 		cm += '</p>';
 		cm += '<p class="score">玩家评分：<span class="stars"><em style="width:80%;"></em></span></p>';
-		cm += '<a href="#">下载游戏</a>';
+		cm += '<a href="gamedetail.html?id='+res[i].id+'">下载游戏</a>';
 		cm += '</div>';
 		cm += '</div>';
 		cm += '</div>';
 		cm += '<div class="bottom-info">';
 		cm += '<h3 class="name">' + res[i].Name + '</h3>';
 		cm += '<p>' + res[i].Introduce + '</p>';
-		cm += '<a href="#">进入官网</a>';
+		cm += '<a href="gamedetail.html?id='+res[i].id+'">进入官网</a>';
 		cm += '</div>';
 		cm += '</div>';    
 	}
@@ -113,7 +114,7 @@ $.get("../Indextestjson/HotGame.json", function(data, status) {
 		cm += '<div class="text">';
 		cm += '<p>' + res[i].Name + '</p>';
 		cm += '<span>类型：' + res[i].GameType + '</span>';
-		cm += '<a href="#">下载游戏</a>';
+		cm += '<a href="gamedetail.html?id='+res[i].id+'">下载游戏</a>';
 		cm += '</div>';
 		cm += '</li>';   
 	}
@@ -146,16 +147,16 @@ $.get("../Indextestjson/NewGame.json", function(data, status) {
 	console.log(res)
 	for(var i = 0; i < res.length; i++) {
 		cm += '<li>';
-		cm += '<a href="/media.php?s=/Game/game_detail/id/49.html" class="server-game-link">';
+		cm += '<a href="gamedetail.html?id='+res[i].id+'" class="server-game-link">';
 		cm += '<span class="img-font"><span class="img-font-cell"><div class="img-font-text" style="width:30px;"></div></span></span>';
 		cm += '<img src="' + res[i].ImgSrc + '" style="width:30px;height: 30px;">';
 		cm += '</a>';
 		cm += '<span class="name " title="' + res[i].Name + '">';
-		cm += '<a href="/media.php?s=/Game/game_detail/id/49.html" target=" _blank " alt="" title="' + res[i].Name + '">' + res[i].Name + '</a>';
+		cm += '<a href="gamedetail.html?id='+res[i].id+'" alt="" title="' + res[i].Name + '">' + res[i].Name + '</a>';
 		cm += '</span>';
-		cm += '<span class="server " title="' + res[i].District + '">江苏二区</span>';
+		cm += '<span class="server " title="'+res[i].District+'">'+ res[i].District +'</span>';
 		cm += '<span class="time ">' + res[i].Time + '</span>';
-		cm += ' <a href="/media.php?s=/Game/game_detail/id/49.html" target="_blank" class="link ">下载</a>';
+		cm += ' <a href="gamedetail.html?id='+res[i].id+'" class="link ">下载</a>';
 		cm += '</li>';
 	}
 	$('.topic-rank-box.index .topic-list ul').html(cm);

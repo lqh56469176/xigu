@@ -2,31 +2,77 @@
     "RecommendGame": [
         {
             "ImgSrc": "http://sy.vlcms.com/Uploads/Picture/2018-04-12/5acec60d196ce.png",
-            "QRcodeSrc": "http://sy.vlcms.com/media.php?s=/Game/dow_url_generate/game_id/80/type/1.html",
+            "QRcodeAndSrc": "http://sy.vlcms.com/media.php?s=/Game/dow_url_generate/game_id/80/type/1.html",
+            "QRcodeIosSrc": "http://sy.vlcms.com/media.php?s=/Game/dow_url_generate/game_id/80/type/1.html",
+            "Img1":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018653&di=84b34dccf1652bed3e279ff6c29b7eff&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01dd0c59e1f682a80121ae0c94aa65.jpg%402o.jpg",
+            "Img2":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018652&di=19f90a29e5ce917e6bc25919a30b5110&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0129f558d8bc37a801219c77010bba.jpg",
+            "Img3":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018652&di=897f3925c73b61988d5ff0472409803e&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01ab12553856f100000025cf0ad1c6jpg%401280w_1l_2o_100sh.jpg",
+            "Img4":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553685760029&di=47d5109663a6db699717a74aecb2b0fc&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F120619%2F188760-12061Z94F838.jpg",
+            "Img5":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553685630556&di=db8ba2a40d8b2b2ed6285858a785ed92&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F130420%2F260365-13042016104045.jpg",
             "GameType": "单机游戏",
-            "Name": "迷城物语",
-            "Introduce": "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏"
+            "Name": "迷城物语11",
+            "Introduce": "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏11",
+            "Content" : "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏，唯美精致的画风、如梦如幻的场景、别具一格的人物设计是游戏的一大亮点。产品表现力丰富精彩，战斗操作简单易上手，剧情故事奇幻刺激。激萌的宠物、拉风的坐骑，丰富的成长系统、多元素交互系统，给玩家带来一波波的极致体验。",
+            "Rate":"10",
+            "System":"Android",
+            "State":"公测",
+            "Time":"2017-01-07",
+            "id":"1"
         },
         {
             "ImgSrc": "http://sy.vlcms.com/Uploads/Picture/2018-04-12/5acec60d196ce.png",
-            "QRcodeSrc": "http://sy.vlcms.com/media.php?s=/Game/dow_url_generate/game_id/80/type/1.html",
+            "QRcodeAndSrc": "http://sy.vlcms.com/media.php?s=/Game/dow_url_generate/game_id/80/type/1.html",
+            "Img1":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018653&di=84b34dccf1652bed3e279ff6c29b7eff&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01dd0c59e1f682a80121ae0c94aa65.jpg%402o.jpg",
+            "Img2":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018652&di=19f90a29e5ce917e6bc25919a30b5110&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0129f558d8bc37a801219c77010bba.jpg",
+            "Img3":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018652&di=897f3925c73b61988d5ff0472409803e&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01ab12553856f100000025cf0ad1c6jpg%401280w_1l_2o_100sh.jpg",
+            "Img4":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553685760029&di=47d5109663a6db699717a74aecb2b0fc&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F120619%2F188760-12061Z94F838.jpg",
+            "Img5":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553685630556&di=db8ba2a40d8b2b2ed6285858a785ed92&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F130420%2F260365-13042016104045.jpg",
             "GameType": "单机游戏",
-            "Name": "迷城物语",
-            "Introduce": "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏"
+            "Name": "迷城物语22",
+            "Introduce": "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏22",
+             "Content" : "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏，唯美精致的画风、如梦如幻的场景、别具一格的人物设计是游戏的一大亮点。产品表现力丰富精彩，战斗操作简单易上手，剧情故事奇幻刺激。激萌的宠物、拉风的坐骑，丰富的成长系统、多元素交互系统，给玩家带来一波波的极致体验。",
+            "Rate":"20",
+            "System":"Android",
+            "State":"公测",
+            "Time":"2017-01-07",
+            "id":"2"
+            
         },
         {
             "ImgSrc": "http://sy.vlcms.com/Uploads/Picture/2018-04-12/5acec60d196ce.png",
-            "QRcodeSrc": "http://sy.vlcms.com/media.php?s=/Game/dow_url_generate/game_id/80/type/1.html",
+            "QRcodeAndSrc": "http://sy.vlcms.com/media.php?s=/Game/dow_url_generate/game_id/80/type/1.html",
+            "Img1":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018653&di=84b34dccf1652bed3e279ff6c29b7eff&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01dd0c59e1f682a80121ae0c94aa65.jpg%402o.jpg",
+            "Img2":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018652&di=19f90a29e5ce917e6bc25919a30b5110&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0129f558d8bc37a801219c77010bba.jpg",
+            "Img3":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018652&di=897f3925c73b61988d5ff0472409803e&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01ab12553856f100000025cf0ad1c6jpg%401280w_1l_2o_100sh.jpg",
+            "Img4":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553685760029&di=47d5109663a6db699717a74aecb2b0fc&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F120619%2F188760-12061Z94F838.jpg",
+            "Img5":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553685630556&di=db8ba2a40d8b2b2ed6285858a785ed92&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F130420%2F260365-13042016104045.jpg",
             "GameType": "单机游戏",
-            "Name": "迷城物语",
-            "Introduce": "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏"
+            "Name": "迷城物语33",
+            "Introduce": "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏33",
+             "Content" : "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏，唯美精致的画风、如梦如幻的场景、别具一格的人物设计是游戏的一大亮点。产品表现力丰富精彩，战斗操作简单易上手，剧情故事奇幻刺激。激萌的宠物、拉风的坐骑，丰富的成长系统、多元素交互系统，给玩家带来一波波的极致体验。",
+            "Rate":"40",
+            "System":"Android",
+            "State":"公测",
+            "Time":"2017-01-07",
+            "id":"3"
         },
         {
             "ImgSrc": "http://sy.vlcms.com/Uploads/Picture/2018-04-12/5acec60d196ce.png",
-            "QRcodeSrc": "http://sy.vlcms.com/media.php?s=/Game/dow_url_generate/game_id/80/type/1.html",
+            "QRcodeAndSrc": "http://sy.vlcms.com/media.php?s=/Game/dow_url_generate/game_id/80/type/1.html",
+            "Img1":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018653&di=84b34dccf1652bed3e279ff6c29b7eff&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01dd0c59e1f682a80121ae0c94aa65.jpg%402o.jpg",
+            "Img2":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018652&di=19f90a29e5ce917e6bc25919a30b5110&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0129f558d8bc37a801219c77010bba.jpg",
+            "Img3":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553664018652&di=897f3925c73b61988d5ff0472409803e&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01ab12553856f100000025cf0ad1c6jpg%401280w_1l_2o_100sh.jpg",
+            "Img4":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553685760029&di=47d5109663a6db699717a74aecb2b0fc&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F120619%2F188760-12061Z94F838.jpg",
+            "Img5":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553685630556&di=db8ba2a40d8b2b2ed6285858a785ed92&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F130420%2F260365-13042016104045.jpg",
             "GameType": "单机游戏",
-            "Name": "迷城物语",
-            "Introduce": "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏"
+            "Name": "迷城物语44",
+            "Introduce": "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏44",
+             "Content" : "《迷城物语》是一款Q版冒险类MMORPG手机网络游戏，唯美精致的画风、如梦如幻的场景、别具一格的人物设计是游戏的一大亮点。产品表现力丰富精彩，战斗操作简单易上手，剧情故事奇幻刺激。激萌的宠物、拉风的坐骑，丰富的成长系统、多元素交互系统，给玩家带来一波波的极致体验。",
+            "Rate":"80",
+            "System":"Android",
+            "State":"公测",
+            "Time":"2017-01-07",
+            "id":"4"
         }
     ]
 }
